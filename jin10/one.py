@@ -1,3 +1,8 @@
+'''
+jin10数据爬取,无限重复爬取单个页面
+redis去重 实现增量操作 （通过hashlib.sha256运算 利用sadd方法判断是否新增数据）
+'''
+
 from datetime import datetime
 
 import scrapy
