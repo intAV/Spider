@@ -1,3 +1,8 @@
+'''
+爬虫练习
+scrapyd数据提取
+'''
+
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
